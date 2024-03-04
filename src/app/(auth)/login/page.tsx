@@ -1,8 +1,16 @@
-import React from 'react'
+import { Metadata } from "next";
+import React from "react";
 
-const LoginPage = () => {
+export const metadata: Metadata = {
+  title: "Authentication",
+  description: "Authentication forms built using the components.",
+};
+
+export default function Login() {
     return (
-        <div>LoginPage</div>
+        <>
+         Login
+        </>
     )
 }
-export default LoginPage
+
